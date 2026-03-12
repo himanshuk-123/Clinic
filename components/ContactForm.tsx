@@ -2,7 +2,7 @@
 
 import { FormEvent, useState } from 'react'
 
-const webhookUrl = 'https://hook.eu1.make.com/9ioif9k5ocasephna3tt7umort81egkr'
+const webhookUrl = 'https://script.google.com/macros/s/AKfycbzYs1eG3S1TiMwg2VM_uDYOkDMp-tyybkorWX1qx2dYW2wJWhRKWI8ngKqdW7o808affA/exec'
 const whatsappNumber = '8468087211'
 
 export default function ContactForm() {
@@ -32,6 +32,8 @@ export default function ContactForm() {
     try {
       const response = await fetch(webhookUrl, {
         method: 'POST',
+          mode: 'no-cors', // yeh add kar
+
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, phone, message }),
       })
@@ -71,7 +73,7 @@ export default function ContactForm() {
             type="tel"
             name="phone"
             required
-            placeholder="+91 99999 99999"
+            placeholder="+91 XXXXXXXXXX"
             className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-300 bg-white"
           />
         </div>

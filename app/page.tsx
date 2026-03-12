@@ -24,7 +24,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 mt-8">
               <a
-                href="https://wa.me/919999999999?text=Hello%20Doctor,%20I%20want%20to%20book%20an%20appointment"
+                href="https://wa.me/8468087211?text=Hello%20Doctor,%20I%20want%20to%20book%20an%20appointment"
                 target="_blank"
                 className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-xl font-semibold text-center transition-colors"
               >
@@ -138,7 +138,7 @@ export default function Home() {
           </div>
 
           <a
-            href="https://wa.me/919999999999"
+            href="https://wa.me/8468087211"
             target="_blank"
             className="inline-block mt-6 bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-xl font-semibold transition-colors"
           >
@@ -174,7 +174,7 @@ export default function Home() {
         <h2 className="text-3xl font-bold">Ready to Book Your Appointment?</h2>
         <p className="text-blue-100 mt-2 text-lg">WhatsApp karo — 2 minute mein appointment confirm</p>
         <a
-          href="https://wa.me/919999999999?text=Hello%20Doctor,%20I%20want%20to%20book%20an%20appointment"
+          href="https://wa.me/8468087211?text=Hello%20Doctor,%20I%20want%20to%20book%20an%20appointment"
           target="_blank"
           className="inline-block mt-6 bg-white text-blue-600 px-8 py-3 rounded-xl font-bold hover:bg-blue-50 transition-colors"
         >

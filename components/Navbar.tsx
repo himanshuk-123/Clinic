@@ -33,7 +33,7 @@ export default function Navbar() {
 
         {/* CTA Button */}
         <a
-          href="https://wa.me/919999999999?text=Hello%20Doctor,%20I%20want%20to%20book%20an%20appointment"
+          href="https://wa.me/918468087211?text=Hello%20Doctor,%20I%20want%20to%20book%20an%20appointment"
           target="_blank"
           className="hidden md:flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors"
         >
@@ -58,7 +58,7 @@ export default function Navbar() {
             )
           })}
           <a         
-            href="https://wa.me/919999999999"
+            href="https://wa.me/918468087211"
             target="_blank"
             className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium text-center"
           >
