@@ -158,7 +158,7 @@ export default function Home() {
               { name: 'Sunita Devi', review: 'Meri poori family yahaan aati hai. Bahut caring aur professional hain Dr. Sharma.', rating: '⭐⭐⭐⭐⭐' },
             ].map((t) => (
               <div key={t.name} className="bg-slate-50 rounded-xl p-6 border border-slate-100">
-                <p className="text-slate-600 text-sm leading-relaxed">"{t.review}"</p>
+                <p className="text-slate-600 text-sm leading-relaxed">&ldquo;{t.review}&rdquo;</p>
                 <div className="mt-4 flex items-center justify-between">
                   <p className="font-semibold text-slate-800 text-sm">{t.name}</p>
                   <span className="text-xs">{t.rating}</span>

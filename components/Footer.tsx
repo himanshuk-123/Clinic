@@ -19,7 +19,7 @@ export default function Footer() {
         <div>
           <h4 className="text-white font-semibold mb-2">Contact</h4>
           <p className="text-sm">📍 123, Civil Lines, Kanpur</p>
-          <p className="text-sm mt-1">📞 +91 99999 99999</p>
+          <p className="text-sm mt-1">📞 +91 8468087211</p>
           <p className="text-sm mt-1">🕐 Mon–Sat: 9am – 7pm</p>
         </div>
       </div>

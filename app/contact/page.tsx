@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import ContactForm from '@/components/ContactForm'
 
 export default function Contact() {
   return (
@@ -73,65 +74,7 @@ export default function Contact() {
       {/* Enquiry Form + Info */}
       <section className="py-16 px-4 bg-slate-50">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
-
-          {/* Form — Formspree se handle hoga */}
-          <div>
-            <h2 className="text-2xl font-bold text-slate-800 mb-6">Send a Message</h2>
-            <form
-              action="https://formspree.io/f/YOUR_FORM_ID"
-              method="POST"
-              className="flex flex-col gap-4"
-            >
-              <div>
-                <label className="text-sm font-medium text-slate-600 mb-1 block">Your Name</label>
-                <input
-                  type="text"
-                  name="name"
-                  required
-                  placeholder="Aapka naam"
-                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-300 bg-white"
-                />
-              </div>
-              <div>
-                <label className="text-sm font-medium text-slate-600 mb-1 block">Phone Number</label>
-                <input
-                  type="tel"
-                  name="phone"
-                  required
-                  placeholder="+91 99999 99999"
-                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-300 bg-white"
-                />
-              </div>
-              <div>
-                <label className="text-sm font-medium text-slate-600 mb-1 block">Message / Query</label>
-                <textarea
-                  name="message"
-                  required
-                  rows={4}
-                  placeholder="Aapki query ya appointment detail..."
-                  className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-300 bg-white resize-none"
-                />
-              </div>
-              <button
-                type="submit"
-                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-semibold transition-colors"
-              >
-                Send Message →
-              </button>
-              <p className="text-xs text-slate-400">
-                Ya seedha{' '}
-                <a
-                  href="https://wa.me/919999999999"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-green-600 font-medium hover:underline"
-                >
-                  WhatsApp pe message karo
-                </a>{' '}
-                — faster response milega.
-              </p>
-            </form>
-          </div>
+          <ContactForm />
 
           {/* Clinic Info */}
           <div>
@@ -183,10 +126,10 @@ export default function Contact() {
         <p className="text-blue-100 mt-2">WhatsApp fastest way hai — 2 minute mein confirm</p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
           <a
-            href="https://wa.me/919999999999?text=Hello%20Doctor,%20I%20want%20to%20book%20an%20appointment"
+            href="https://wa.me/8468087211?text=Hello%20Doctor,%20I%20want%20to%20book%20an%20appointment"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-white text-blue-600 px-8 py-3 rounded-xl font-bold hover:bg-blue-50 transition-colors"
+            className="bg-green-500 text-white px-8 py-3 rounded-xl font-bold hover:bg-green-600 transition-colors"
           >
             💬 WhatsApp Now
           </a>

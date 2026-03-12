@@ -108,7 +108,7 @@ export default function About() {
           <a
             href="https://wa.me/919999999999"
             target="_blank"
-            className="bg-white text-blue-600 px-8 py-3 rounded-xl font-bold hover:bg-blue-50 transition-colors"
+            className="bg-green-500 text-white px-8 py-3 rounded-xl font-bold hover:bg-green-600 transition-colors"
           >
             💬 WhatsApp Now
           </a>

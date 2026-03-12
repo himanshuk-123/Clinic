@@ -110,8 +110,8 @@ export default function Timing() {
                 Kanpur, Uttar Pradesh — 208001
               </p>
               <div className="flex flex-col gap-2 mt-4">
-                <p className="text-sm text-slate-600">📞 <span className="font-medium">+91 99999 99999</span></p>
-                <p className="text-sm text-slate-600">💬 WhatsApp: <span className="font-medium">+91 99999 99999</span></p>
+                <p className="text-sm text-slate-600">📞 <span className="font-medium">+91 8468087211</span></p>
+                <p className="text-sm text-slate-600">💬 WhatsApp: <span className="font-medium">+91 8468087211</span></p>
               </div>
               <a
                 href="https://maps.google.com/?q=Civil+Lines+Kanpur"
